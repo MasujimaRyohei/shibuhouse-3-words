@@ -1,3 +1,9 @@
+// File name : shibuhouse-3-words.js
+// Version   : 1.0.0
+// Author    : Masujima Ryohei
+// Date      : 2020/03/31 Latest update 2020/03/31
+// Summary   : Using what3words API(https://developer.what3words.com/public-api)
+
 function reqest3words(lang) {
     var request = new XMLHttpRequest();
 
@@ -15,7 +21,6 @@ function reqest3words(lang) {
 
     request.send();
 }
-
 
 reqest3words('ar');
 reqest3words('ru');
