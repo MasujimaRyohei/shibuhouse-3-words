@@ -15,3 +15,15 @@ function reqest3words(lang) {
 
     request.send();
 }
+
+
+reqest3words('ar');
+reqest3words('ru');
+reqest3words('en');
+reqest3words('ja');
+reqest3words('de');
+reqest3words('fr');
+reqest3words('hi');
+reqest3words('pl');
+reqest3words('cs');
+reqest3words('it');
